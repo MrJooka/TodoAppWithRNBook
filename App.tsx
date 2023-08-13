@@ -30,6 +30,7 @@ function App(): JSX.Element {
 const styles = StyleSheet.create({
   block: {
     flex: 1,
+    backgroundColor: '#fff',
   },
 });
 
