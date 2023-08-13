@@ -20,7 +20,7 @@ function App(): JSX.Element {
     <SafeAreaProvider>
       <SafeAreaView edges={['bottom']} style={styles.block}>
         <KeyboardAvoidingView
-          behavior={Platform.select({ios: 'padding', android: undefined})}
+          behavior={Platform.select({ios: 'padding'})}
           style={styles.avoid}>
           <DateHead date={today} />
           <Empty />
